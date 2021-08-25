@@ -1,0 +1,12 @@
+server:
+  port: 8888
+
+spring:
+  application:
+    name: configserver
+  cloud:
+    config:
+      enabled: true
+      server:
+        git:
+          uri: C:\Users\HP 600\Downloads\microservicios\git-config\ms-config-repository
